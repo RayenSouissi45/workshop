@@ -1,0 +1,15 @@
+{
+  "name": "predictive-dashboard-workshop",
+  "version": "1.0.0",
+  "description": "Tableau de bord d'analyse prédictive avec Framework JS et Machine Learning",
+  "scripts": {
+    "install-all": "cd server && npm install && cd ../client && npm install",
+    "server": "cd server && npm start",
+    "client": "cd client && npm start",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "build": "cd client && npm run build"
+  },
+  "devDependencies": {
+    "concurrently": "^7.0.0"
+  }
+}
